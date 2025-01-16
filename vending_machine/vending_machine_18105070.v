@@ -1,7 +1,7 @@
 module vending_machine_18105070(
     input clk,
     input rst,
-    input [1:0] in, // 01 = 5 rs, 10 = 10 rs
+    input [1:0] in, // 01 = $5, 10 = $10
     output reg out,
     output reg [1:0] change
 );
